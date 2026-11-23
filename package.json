@@ -1,0 +1,22 @@
+{
+  "name": "ejemplo.spec.ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.6.2"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "echo \"lint-staged ejecutado en archivos .ts\""
+    ]
+  }
+}
